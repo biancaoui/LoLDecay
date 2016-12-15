@@ -1,0 +1,29 @@
+body {
+  padding-top: 250px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+/* Website logo */
+h2 {
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #fff;
+  width: 500px;
+}
+
+.row {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Summoner Input Field */
+.input-group {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
