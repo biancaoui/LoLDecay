@@ -1,5 +1,3 @@
-## LoLDecay
-
 ### Live Site
 http://www.loldecay.com (Under construction)
 
