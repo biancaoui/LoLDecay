@@ -1,7 +1,7 @@
 body {
-  padding-top: 300px;
+  padding-top: 230px;
   padding-bottom: 40px;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 /* Website logo */
@@ -11,19 +11,19 @@ h2 {
 
 /* Containers */
 .container-fluid {
-  background-color: #fff;
+  background-color: #FFFFFF;
   width: 500px;
 }
 
 .row {
-    background-color: #fff;
+    background-color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* Dropdown */
 .dropdown-menu {
-    width: 20px !important;
+  width: 100px;
 }
 
 /* Summoner Input Field */

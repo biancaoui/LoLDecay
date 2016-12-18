@@ -22,40 +22,44 @@
 
   <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid"> <!-- Beginning of front page container -->
 
-            <h2>LoLDecay</h2>
+        <!-- Logo -->
+        <h2><img src="http://i.imgur.com/QrlaJQG.jpg"  width="100%"></h2>
             
-            <div class="row">
-                <div class="input-group">
-                <div class="input-group-btn">
-                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Region</button>
-                    <ul class="dropdown-menu" width="250px">
-                        <li><a href="#">NA</a></li>
-                        <li><a href="#">JPN</a></li>
-                        <li><a href="#">KR</a></li>
-                        <li><a href="#">EUW</a></li>
-                        <li><a href="#">EUNE</a></li>
-                        <li><a href="#">OCE</a></li>
-                        <li><a href="#">BR</a></li>
-                        <li><a href="#">LAS</a></li>
-                        <li><a href="#">LAN</a></li>
-                        <li><a href="#">RUS</a></li>
-                        <li><a href="#">TUR</a></li>
-                    </ul>
-                </div>
-                <input type="text" class="form-control" placeholder="Enter summoner name here">
-                <span class="input-group-btn">
-                    <button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-                </div>
+        <div class="row">
+            <div class="input-group">
+            <div class="input-group-btn">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Region</button>
+                <!-- Dropdown menu for the regions -->
+                <ul class="dropdown-menu"> <!-- Roland, please adjust width size (smaller) -->
+                    <li><a href="#">NA</a></li>
+                    <li><a href="#">JPN</a></li>
+                    <li><a href="#">KR</a></li>
+                    <li><a href="#">EUW</a></li>
+                    <li><a href="#">EUNE</a></li>
+                    <li><a href="#">OCE</a></li>
+                    <li><a href="#">BR</a></li>
+                    <li><a href="#">LAS</a></li>
+                    <li><a href="#">LAN</a></li>
+                    <li><a href="#">RUS</a></li>
+                    <li><a href="#">TUR</a></li>
+                </ul>
             </div>
-      </div> <!-- /Container -->
+            <!-- Input field for IGNs -->
+            <input type="text" class="form-control" placeholder="Enter summoner name here">
+            <span class="input-group-btn">
+                <!-- Search button -->
+                <button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+            </span>
+            </div>
+        </div>
+    </div> <!-- End of front page container -->
 
     <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Needed for dropdown functionality -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
