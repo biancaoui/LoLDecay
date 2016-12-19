@@ -21,10 +21,12 @@ h2 {
     margin-right: auto;
 }
 
-/* Dropdown */
-.dropdown-menu {
-  width: 100px;
+
+#selector {
+    width:85px;
+    float:right;
 }
+
 
 /* Summoner Input Field */
 .input-group {

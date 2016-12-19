@@ -9,7 +9,6 @@
     <link rel="icon" href="../../favicon.ico">
     <title>LoLDecay</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="decay.css" rel="stylesheet">
 
 
@@ -25,14 +24,21 @@
     <div class="container-fluid"> <!-- Beginning of front page container -->
 
         <!-- Logo -->
-        <h2><img src="http://i.imgur.com/QrlaJQG.jpg"  width="100%"></h2>
+        <h2><img src="http://i.imgur.com/QrlaJQG.jpg" ></h2>
             
         <div class="row">
             <div class="input-group">
+            
+<!--
             <div class="input-group-btn">
+            
             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Region</button>
-                <!-- Dropdown menu for the regions -->
-                <ul class="dropdown-menu"> <!-- Roland, please adjust width size (smaller) -->
+
+
+
+                
+                <ul class="dropdown-menu col-xs-1">
+                    
                     <li><a href="#">NA</a></li>
                     <li><a href="#">JPN</a></li>
                     <li><a href="#">KR</a></li>
@@ -44,10 +50,29 @@
                     <li><a href="#">LAN</a></li>
                     <li><a href="#">RUS</a></li>
                     <li><a href="#">TUR</a></li>
+                    
                 </ul>
+                
             </div>
+-->
+            
+            <select class="form-control" id="selector">
+                <option>NA</option>
+                <option>JPN</option>
+                <option>KR</option>
+                <option>EUW</option>
+                <option>EUNE</option>
+                <option>OCE</option>
+                <option>BR</option>
+                <option>LAS</option>
+                <option>LAN</option>
+                <option>RUS</option>
+                <option>TUR</option>
+            </select>
+            <span class="input-group-addon" style="width:0px; padding-left:0px; padding-right:0px; border:none;"></span>
             <!-- Input field for IGNs -->
             <input type="text" class="form-control" placeholder="Enter summoner name here">
+                
             <span class="input-group-btn">
                 <!-- Search button -->
                 <button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-search"></span></button>
@@ -61,7 +86,5 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <!-- Needed for dropdown functionality -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
